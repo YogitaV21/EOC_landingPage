@@ -1,0 +1,385 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    
+  }
+.Body{
+   
+    padding: 1px;
+}
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkseagreen;
+    padding: 5px;
+    color: white;
+  }
+.icons{
+    font-size: 40px;
+    justify-content: space-between;
+    
+}
+.search-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr); 
+    grid-template-rows: repeat(1, 2fr);  
+    gap: 30px;
+    color:black;
+}
+.search-bar{
+    border: 1px solid #fff;
+    padding: 20px;
+}
+
+
+  .search{
+    --padding:14px;
+    width:max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background-color: #f6f6f6;
+    justify-content: center;
+    padding: 20px;
+    
+  }
+.search-input{
+    font-size: 16px;
+    font-family: 'lexend',sans-serif;
+    color: #333333;
+    margin-left: var(--padding);
+    outline: none;
+    border:none;
+    background: transparent;
+    width:900px;
+   
+}
+.search-input::placeholder{
+    color:rgba(0,0,0,0.25);
+}
+  .logo img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; 
+    margin-right: 90%;
+    
+  }
+  .nav-links {
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+    
+    
+}
+.nav-links li {
+    margin: 0 15px;
+    
+  }
+
+  .nav-link{
+    text-align: center;
+   
+    padding: 0px;
+  }
+
+.Body{
+    border: solid;
+    color: #4B6F44;
+  }
+.health{
+   
+    text-align: center;
+   
+   
+}
+.healths-grid h1{
+    color:black;
+    font-size: 50px;
+}
+.healths-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(1, 1fr);  
+    gap: 10px;
+    color:black;
+}
+
+
+.Health img{
+    height: fit-content;
+    
+}
+
+button{
+    background-color:darkseagreen;
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 18px; 
+    border-radius: 45px;
+}
+
+.grid-container {
+    background-color:#fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    grid-template-rows: repeat(2, 1fr);   /* 2 rows */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+    height: fit-content;
+  }
+  .grid-container button{
+    background-color:black;
+    color: white; 
+    padding: 10px 10px; 
+    font-size: 15px; 
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0; 
+    right: 60%; 
+  }
+  .grid-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+  }
+  
+  .clothing {
+    background-image: url('clothing.jpg');
+    grid-column: span 1; /* Spans 2 columns */
+    grid-row: span 2;
+    height: 100%;
+  }
+  .bedding {
+    background-image: url('bedding.jpg');
+    grid-column: span 1; /* Spans 2 columns */
+    grid-row: span 1;
+    height: 100%;
+  }
+  .accessories{
+    background-image: url('Acessories.jpg');
+    grid-column: span 1; /* Spans 2 columns */
+    grid-row: span 1;
+    height: 100%;
+  }
+  .furniture {
+    background-image: url('furniture.jpg');
+    grid-column: span 1; /* Spans 2 columns */
+    grid-row: span 2;
+    height: 100%;
+  }
+  .home-goods {
+    background-image: url('homegoods.jpg');
+    grid-column: span 2; /* Spans 2 columns */
+    grid-row: span 1;
+   
+  }
+  
+.products {
+    
+    text-align: center;
+    background-color:antiquewhite;
+    padding: 20px 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid antiquewhite;
+    padding: 10px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+}
+.text {
+    color: #333333;
+    margin-left: 50px;
+    font-size: larger;
+}
+.Icons{
+    margin-left: 1100px;
+    font-size: 30px;
+}
+.Arrivals {
+    
+    text-align: center;
+   
+    padding: 20px 20px;
+}
+
+.arrivals-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.arrival {
+    border: 1px solid #fff;
+    padding: 10px;
+}
+/*
+.button {
+    align-items: center;
+    justify-content: center;
+}
+    */
+ #m{
+    margin-left: 550px;
+    margin-bottom: 10px;
+ }  
+  
+.note{
+  
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 300px;
+  background-image: url('handbag1.jpg');
+  background-color: rgba(255, 255, 0, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.note h2{
+    padding: 10px;
+    
+    color: black;
+    
+}
+    
+.benefits {
+    
+    text-align: center;
+   
+    padding: 20px 20px;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 20px;
+}
+.benefit {
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.benefits h1{
+    color: #4B6F44;
+}
+
+.News{
+   
+    text-align: center;
+   
+   
+}
+    
+.channel h1{
+    color:#333333;
+  
+}
+.channel{
+   border-radius: 10px;
+   margin:40px;
+   padding: 10px;
+}
+.channel img{
+    border-radius: 10px;
+    gap: 10px;
+    width: 100px;
+}
+.News-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    color:black;
+    background-color:antiquewhite;
+    height: 200px;
+   
+}
+.news{
+    
+    background-image: url('wood2.jpg');
+    height:500px;
+}
+
+.newsletter{
+    height: 200px;
+    width: 400px; 
+    padding: 30px;
+    background-color: #f6f6f6; 
+    border-radius: 8px; 
+    text-align: center; 
+    margin-bottom: 200px;
+   justify-content: center;
+  
+   
+}
+.box{
+    height: fit-content;
+    padding: 190px 20px;
+}
+.email{
+    border: 1px solid #fff;
+    padding: 20px;
+    --padding:4px;
+    width:350px;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 18px;
+    background-color: #fff;
+    justify-content: center;
+    padding: 10px 20px;
+    
+}
+.center img{
+    margin-left: 500px;
+    
+}
+.Support{
+   
+    text-align: center;
+   
+   
+}
+    
+.supports-grid h1{
+    color:darkseagreen;
+}
+.supports-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 10px;
+    color:black;
+    background-color: antiquewhite;
+}
+/*
+ .support{
+    border: 1px solid #fff;
+    padding: 10px;
+}
+*/
+
+footer {
+    text-align: center;
+    background-color: antiquewhite;
+    color: black;
+    padding: 20px;
+    
+}
